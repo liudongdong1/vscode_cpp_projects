@@ -1,0 +1,17 @@
+// https://pspdfkit.com/blog/2019/visual-studio-code-for-cpp/
+// https://code.visualstudio.com/docs/cpp/cmake-linux
+//     Remember `Command Palette, CMake: Select a Kit`
+
+// uses CodeLLB Extension for "type": "lldb"
+
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug CMake Target",
+      "program": "${command:cmake.launchTargetPath}"
+    }
+  ]
+}

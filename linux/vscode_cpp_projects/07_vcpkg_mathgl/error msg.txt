@@ -1,0 +1,10 @@
+CMake Error at /home/vagrant/Desktop/vcpkg/scripts/buildsystems/vcpkg.cmake:650 (_find_package):Could not find a package configuration file provided by "mathgl" with any
+of the following names:
+
+  mathglConfig.cmake
+  mathgl-config.cmake
+
+Add the installation prefix of "mathgl" to CMAKE_PREFIX_PATH or set
+"mathgl_DIR" to a directory containing one of the above files.  If "mathgl"
+provides a separate development package or SDK, be sure it has been
+installed.
