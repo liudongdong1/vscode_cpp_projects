@@ -1,0 +1,11 @@
+{
+  "name": "vscode-vcpkg-template",
+  "version-string": "1.0.0",
+  "dependencies":[
+    {
+      "name": "spdlog",
+      "version>=":"1.10.0"
+    }
+  ],
+  "builtin-baseline": "8e3fbf662abe9df0422d4df9e97ca5076287287e"
+}
